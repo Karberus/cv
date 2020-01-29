@@ -1,0 +1,167 @@
+/*********************Tag Selectors***************************/
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color: #1b262c;
+  font-size: 80px;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  color: #1b262c;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 32px;
+  font-weight: normal;
+}
+
+h3 {
+  color: #0f4c75;
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  border-style: dotted;
+  border-top: none;
+  border-width: 10px;
+  color: #1b262c;
+  margin: 100px auto 100px auto;
+  width: 3%;
+}
+
+p {
+  line-height: 2;
+}
+
+/*************************Class Selectors*************************/
+/***containers***/
+.top_container {
+  background-color: #bbe1fa;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle_container {}
+
+.bottom_container {
+  background-color: #3282b8;
+  margin: 100px 0 0 0;
+  padding: 30px 0 20px;
+}
+
+/***Divs***/
+.profile {
+  width: 30%;
+  margin: auto;
+}
+
+.skill_row {
+  margin: 100px auto 100px auto;
+  text-align: left;
+  width: 50%;
+}
+
+.author_attributes {
+  font-size: 12px;
+}
+
+/***Images**/
+.profile_pic {
+  width: 256px;
+  height: 256px;
+  border-radius: 100%;
+}
+
+.clouds_img {}
+
+.top_cloud {
+  right: 350px;
+  top: 25px;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+}
+
+.bottom_cloud {
+  left: 350px;
+  bottom: 350px;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+}
+
+.mountains_img {
+  width: 90%;
+  height: 350px;
+}
+
+.coding_img {
+  margin-right: 30px;
+  width: 25%;
+  float: left;
+}
+
+.typewriter_img {
+  margin-left: 30px;
+  width: 25%;
+  float: right;
+}
+
+/******Footer************/
+.contact_me {
+  width: 47%;
+  margin: auto;
+}
+
+.contact_text{
+  margin: 50px auto 50px auto;
+}
+
+.contact_button {
+  box-shadow: 0px 10px 14px -7px #276873;
+  background: linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+  background-color: #599bb3;
+  border-radius: 8px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 13px 32px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #3d768a;
+}
+
+.contact_button:hover {
+  background: linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+  background-color: #408c99;
+}
+
+.contact_button:active {
+  position: relative;
+  top: 1px;
+}
+
+.footer_link {
+  margin: 10px 20px;
+  display: inline-block;
+  font-size: 24px;
+  color: #0f4c75;
+  text-decoration: none;
+  text-shadow: 1px 1px;
+}
+
+.footer_link:hover {
+  color: white;
+}
+
+.copyright{
+  color: white;
+  font-size: 12px;
+}
